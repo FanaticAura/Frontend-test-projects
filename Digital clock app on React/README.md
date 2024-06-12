@@ -1,5 +1,7 @@
 # React + Vite
 
+Note: node_modules packages are too large to place them here. Hence, the React component are placed here in order to show my coding abilities.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
