@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(28, 76, 209);
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+    padding: 30px;
+}
+
+.display{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:black;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+}
+
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    transition: background-color 0.5s ease;
+}
+
+.start-button{
+    background-color: rgb(16, 207, 16);
+}
+
+.start-button:hover{
+    background-color: rgb(10, 117, 10);
+}
+
+.stop-button{
+    background-color: rgb(243, 38, 38);
+}
+
+.stop-button:hover{
+    background-color: rgb(185, 14, 14);
+}
+
+.reset-button{
+    background-color: darkorange;
+}
+
+.reset-button:hover{
+    background-color: rgb(177, 104, 15);
+}
