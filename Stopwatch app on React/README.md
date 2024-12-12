@@ -1,4 +1,3 @@
-Note: node_modules packages are too large to place them here. Hence, the React component are placed here in order to show my coding abilities.
 
 # React + Vite
 
