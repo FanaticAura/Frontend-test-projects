@@ -1,1 +1,0 @@
-for (let l = 1; l < 100;) console.log((++l % 3 ? `` : 'Fizz') + (l % 5 ? `` : 'Buzz') || l);
